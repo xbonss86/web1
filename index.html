@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[NAMA ANDA] | IT Developer | Web Developer | Network &amp; Database</title>
+<meta name="description" content="Portfolio [NAMA ANDA]: IT Developer, Web Developer, Network Administrator, Database Administrator, dan IT Support.">
+<meta name="keywords" content="IT Developer, Web Developer, Network Administrator, MikroTik, MySQL, System Administrator, IT Support">
+<meta name="author" content="[NAMA ANDA]">
+<meta property="og:title" content="[NAMA ANDA] | IT Developer Portfolio">
+<meta property="og:description" content="Web, Network, Database, System &amp; IT Support.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/profile.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306b6d4'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23fff' font-family='monospace'%3E%26lt;/%26gt;%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#home" class="logo">Bonatua Parsaoran Sipayung</a>
+    <nav id="menu" aria-label="Menu utama">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#services">Services</a>
+      <a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#network">Network</a><a href="#database">Database</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="icon-btn" id="theme" aria-label="Ganti tema">☾</button>
+    <button class="icon-btn burger" id="burger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div class="reveal">
+      <p class="eyebrow">HELLO, I'M</p>
+      <h1>Bonatua Parsaoran Sipayung</h1>
+      <p class="roles">IT Developer · Web Developer · <span>Network &amp; Database Specialist</span></p>
+      <p class="lead">I build reliable web applications, network infrastructure, and database-driven IT solutions.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">VIEW MY PROJECTS</a>
+        <a class="btn" href="assets/documents/CV.pdf" download>DOWNLOAD CV</a>
+        <a class="btn ghost" href="#contact">CONTACT ME</a>
+      </div>
+      <div class="social">
+        <a href="[GITHUB]" aria-label="GitHub" target="_blank" rel="noopener">GitHub</a>
+        <a href="[LINKEDIN]" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="[INSTAGRAM]" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:[EMAIL]" aria-label="Email">Email</a>
+      </div>
+    </div>
+    <div class="hero-vis reveal">
+      <div class="photo"><img src="assets/images/bona.jpeg" alt="Foto profil [NAMA ANDA]" width="360" height="360"></div>
+      <span class="float f1">&lt;/&gt;</span><span class="float f2">SQL</span><span class="float f3">LAN</span><span class="float f4">PHP</span>
+      <div class="term" aria-label="Terminal">
+        <div class="dots"><i></i><i></i><i></i></div>
+        <pre id="term"></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="sec">
+  <div class="wrap">
+    <h2 class="reveal">Who I Am</h2>
+    <p class="sub reveal">Saya adalah IT professional yang memiliki ketertarikan dan pengalaman dalam pengembangan website, sistem informasi, jaringan komputer, database, troubleshooting hardware/software, dan implementasi solusi teknologi.</p>
+    <div class="chips reveal" id="chips"></div>
+  </div>
+</section>
+
+<section id="services" class="sec alt">
+  <div class="wrap">
+    <h2 class="reveal">My Specialization</h2>
+    <div class="cards4" id="spec"></div>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <div class="wrap">
+    <h2 class="reveal">Technical Skills</h2>
+    <div class="cards3" id="skillgrid"></div>
+  </div>
+</section>
+
+<section id="network" class="sec alt">
+  <div class="wrap two">
+    <div class="reveal">
+      <h2>Network Infrastructure</h2>
+      <ul class="tags" id="nettags"></ul>
+      <a class="btn primary" href="#projects" data-filter-link="network">VIEW NETWORK PROJECT</a>
+    </div>
+    <div class="card diagram reveal">
+      <svg viewBox="0 0 400 330" role="img" aria-label="Diagram jaringan: Internet ke MikroTik, Switch dan Access Point">
+        <g class="ln"><path d="M200 40V70M200 110V135M200 135H100V160M200 135H310V160M100 200V225M100 225H50V245M100 225H100V245M100 225H150V245M310 200V225M310 225H260V245M310 225H310V245M310 225H360V245"/></g>
+        <g class="nd">
+          <rect x="150" y="10" width="100" height="30" rx="8"/><text x="200" y="30">INTERNET</text>
+          <rect x="140" y="70" width="120" height="40" rx="8" class="hl"/><text x="200" y="95">MIKROTIK</text>
+          <rect x="50" y="160" width="100" height="40" rx="8"/><text x="100" y="185">SWITCH</text>
+          <rect x="250" y="160" width="120" height="40" rx="8"/><text x="310" y="185">ACCESS POINT</text>
+          <rect x="15" y="245" width="70" height="28" rx="6"/><text x="50" y="263">PC</text>
+          <rect x="65" y="245" width="70" height="28" rx="6" transform="translate(20 0)"/><text x="120" y="263">SERVER</text>
+          <rect x="140" y="245" width="70" height="28" rx="6" transform="translate(15 0)"/><text x="190" y="263">PRINTER</text>
+          <rect x="225" y="245" width="70" height="28" rx="6"/><text x="260" y="263">LAPTOP</text>
+          <rect x="275" y="245" width="70" height="28" rx="6" transform="translate(0 0)"/><text x="310" y="300">MOBILE</text>
+          <rect x="325" y="245" width="70" height="28" rx="6"/><text x="360" y="263">CLIENT</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section id="database" class="sec">
+  <div class="wrap">
+    <h2 class="reveal">Database &amp; Backend · Web Development</h2>
+    <div class="two">
+      <div class="card reveal">
+        <h3>Architecture</h3>
+        <div class="flow"><span>Frontend<br><small>HTML + CSS + JS</small></span><b>↓</b><span>Backend<br><small>PHP / REST API</small></span><b>↓</b><span>Database<br><small>MySQL / MariaDB</small></span></div>
+        <ul class="tags" id="webtags"></ul>
+      </div>
+      <div class="card reveal">
+        <h3>Mini Schema</h3>
+        <pre class="code"><code><em>users</em>
+ ├── id <small>PK</small>
+ ├── name
+ ├── email
+ └── role
+
+<em>projects</em>
+ ├── id <small>PK</small>
+ ├── user_id <small>FK → users.id</small>
+ ├── title
+ ├── category
+ └── description</code></pre>
+        <ul class="tags" id="dbtags"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="sec alt">
+  <div class="wrap">
+    <h2 class="reveal">Featured Projects</h2>
+    <div class="filters" id="filters" role="group" aria-label="Filter project"></div>
+    <div class="cards4 proj" id="projgrid"></div>
+  </div>
+</section>
+
+<section id="experience" class="sec">
+  <div class="wrap">
+    <h2 class="reveal">Experience</h2>
+    <div class="timeline" id="timeline"></div>
+    <div class="two edu">
+      <div class="card reveal"><h3>Education</h3><p><strong>Bachelor of Information Technology</strong><br>[NAMA SEKOLAH/UNIVERSITAS] · [TAHUN]</p><p class="mut">Training · Workshop: [ISI SENDIRI]</p></div>
+      <div class="card reveal"><h3>Certifications</h3><ul class="tags" id="certs"></ul><p class="mut">Placeholder: ganti dengan sertifikat yang benar-benar dimiliki.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt">
+  <div class="wrap">
+    <h2 class="reveal">My Numbers</h2>
+    <div class="stats" id="stats"></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <h2 class="reveal">How I Work</h2>
+    <ol class="steps" id="steps"></ol>
+  </div>
+</section>
+
+<section class="sec alt">
+  <div class="wrap">
+    <h2 class="reveal">I Solve Technical Problems</h2>
+    <div class="cards4" id="solve"></div>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <div class="wrap two">
+    <div class="reveal">
+      <h2>Let's Build Something Together</h2>
+      <ul class="info">
+        <li>Email: [EMAIL]</li><li>Phone: [NOMOR TELEPON]</li><li>Location: [ALAMAT]</li>
+        <li>GitHub: [GITHUB]</li><li>LinkedIn: [LINKEDIN]</li>
+      </ul>
+    </div>
+    <form class="card reveal" id="form" novalidate>
+      <label>Name<input id="f-name" required autocomplete="name"></label>
+      <label>Email<input id="f-email" type="email" required autocomplete="email"></label>
+      <label>Subject<input id="f-subject" required></label>
+      <label>Message<textarea id="f-msg" rows="4" required></textarea></label>
+      <button class="btn primary" type="submit">Send Message</button>
+      <p id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">© <span id="year"></span> [NAMA ANDA] · [PROFESI]</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title" hidden>
+  <div class="modal-box">
+    <button class="icon-btn close" id="m-close" aria-label="Tutup">✕</button>
+    <div id="m-body"></div>
+  </div>
+</div>
+<button class="top" id="top" aria-label="Kembali ke atas" hidden>↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
